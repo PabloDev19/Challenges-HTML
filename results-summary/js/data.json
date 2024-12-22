@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Reaccion",
+    "score": 80,
+    "icon": "./assets/images/icon-reaction.svg"
+  },
+  {
+    "category": "Memoria",
+    "score": 92,
+    "icon": "./assets/images/icon-memory.svg"
+  },
+  {
+    "category": "Hablar",
+    "score": 61,
+    "icon": "./assets/images/icon-verbal.svg"
+  },
+  {
+    "category": "Vista",
+    "score": 72,
+    "icon": "./assets/images/icon-visual.svg"
+  }
+]
