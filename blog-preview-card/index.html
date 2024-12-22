@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Preview Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="card-header">
+          <img
+            src="assets/images/illustration-article.svg"
+            alt="Imagen Header"
+          />
+        </section>
+        <section class="card-body">
+          <h4>Learning</h4>
+          <h5 id="dia">Publicado el 21 Dic 2024</h5>
+          <h1>HTML and CSS Challenge</h1>
+          <p>
+            "Gracias a este desafío, pude crear esta carta utilizando
+            propiedades básicas de CSS. Si la ves y te gusta, te reto a
+            recrearlo🔥❤️!"
+          </p>
+        </section>
+        <section class="card-footer">
+          <img src="assets/images/image-avatar.webp" alt="Imagen Avatar" />
+          <p>Pablo Placencia</p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
+
+<script>
+  const dia = document.getElementById("dia");
+  const tiempo = new Date();
+
+  const meses = [
+    "Ene",
+    "Feb",
+    "Mar",
+    "Abr",
+    "May",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dic",
+  ];
+
+  dia.innerHTML =
+    "Publicado el " +
+    tiempo.getDate() +
+    " " +
+    meses[tiempo.getMonth()] +
+    " " +
+    tiempo.getFullYear();
+</script>
