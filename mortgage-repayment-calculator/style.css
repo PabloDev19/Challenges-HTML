@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", serif;
+  font-style: normal;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: hsla(203, 41%, 72%, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 60%;
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px black;
+}
+.mortgage-calculator {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mortage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mortage-header p {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+  color: hsl(202, 55%, 16%);
+}
+
+.mortage-body {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-container-first {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-wrapper-first {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.input-container-first,
+.input-container-second label {
+  color: hsl(202, 55%, 16%);
+  font-weight: 600;
+}
+
+.input-wrapper-first article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+  background-color: hsl(200, 24%, 40%, 0.4);
+  border-radius: 10px 0 0 10px;
+}
+
+.input-wrapper-first p {
+  color: hsl(202, 55%, 16%);
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.input-wrapper-first input {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", serif;
+  font-style: normal;
+}
+
+.input-container-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.input-container-second article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 47%;
+}
+
+.input-wrapper-second {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.input-wrapper-second input {
+  border: none;
+  height: 100%;
+  padding-left: 15px;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", serif;
+  font-style: normal;
+}
+
+.input-wrapper-second article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  background-color: hsl(200, 24%, 40%, 0.4);
+  border-radius: 10px 0 0 10px;
+  width: 35%;
+}
+
+.input-wrapper-second p {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.mortgage-types {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mortgage-types article {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  background-color: hsla(61, 70%, 52%, 0.2);
+  border: 3px solid hsl(61, 70%, 52%);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.mortage-footer {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(61, 83%, 33%);
+  border-radius: 40px;
+  gap: 10px;
+}
+
+.mortage-footer img {
+  background-color: rgba(244, 240, 255, 0);
+}
+
+.mortage-footer button {
+  height: 100%;
+  width: auto;
+  border: none;
+  background-color: hsl(61, 83%, 33%);
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", serif;
+  font-style: normal;
+}
+
+.mortgage-result {
+  width: 50%;
+  height: 100%;
+  border-radius: 0 20px 20px 60px;
+  background-color: hsl(202, 55%, 16%);
+}

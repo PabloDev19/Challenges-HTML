@@ -1,0 +1,182 @@
+[
+  {
+    "nombre": "Pablo",
+    "apellido": "González",
+    "edad": 25,
+    "grado_instruccion": "Universitario",
+    "direccion": "Calle Principal 123",
+    "genero": "M",
+    "url_foto": "assets/imagen_01.jpg"
+  },
+  {
+    "nombre": "María",
+    "apellido": "López",
+    "edad": 30,
+    "grado_instruccion": "Postgrado",
+    "direccion": "Av. Las Flores 456",
+    "genero": "F",
+    "url_foto": "assets/imagen_02.jpg"
+  },
+  {
+    "nombre": "Carlos",
+    "apellido": "Martínez",
+    "edad": 28,
+    "grado_instruccion": "Secundaria",
+    "direccion": "Calle Palmeras 789",
+    "genero": "M",
+    "url_foto": "assets/imagen_03.jpg"
+  },
+  {
+    "nombre": "Lucía",
+    "apellido": "Rivera",
+    "edad": 22,
+    "grado_instruccion": "Técnico",
+    "direccion": "Av. Universitaria 321",
+    "genero": "F",
+    "url_foto": "assets/imagen_04.jpg"
+  },
+  {
+    "nombre": "Andrés",
+    "apellido": "Ramírez",
+    "edad": 35,
+    "grado_instruccion": "Universitario",
+    "direccion": "Calle Horizonte 654",
+    "genero": "M",
+    "url_foto": "assets/imagen_05.jpg"
+  },
+  {
+    "nombre": "Sofía",
+    "apellido": "Pérez",
+    "edad": 29,
+    "grado_instruccion": "Universitario",
+    "direccion": "Av. Las Palmeras 987",
+    "genero": "F",
+    "url_foto": "assets/imagen_06.jpg"
+  },
+  {
+    "nombre": "Jorge",
+    "apellido": "Castro",
+    "edad": 40,
+    "grado_instruccion": "Primaria",
+    "direccion": "Calle Vista Verde 321",
+    "genero": "M",
+    "url_foto": "assets/imagen_07.jpg"
+  },
+  {
+    "nombre": "Ana",
+    "apellido": "Torres",
+    "edad": 23,
+    "grado_instruccion": "Técnico",
+    "direccion": "Av. Central 123",
+    "genero": "F",
+    "url_foto": "assets/imagen_08.jpg"
+  },
+  {
+    "nombre": "Miguel",
+    "apellido": "Hernández",
+    "edad": 27,
+    "grado_instruccion": "Universitario",
+    "direccion": "Calle Primavera 456",
+    "genero": "M",
+    "url_foto": "assets/imagen_09.jpg"
+  },
+  {
+    "nombre": "Laura",
+    "apellido": "Díaz",
+    "edad": 32,
+    "grado_instruccion": "Postgrado",
+    "direccion": "Av. Horizonte 654",
+    "genero": "F",
+    "url_foto": "assets/imagen_10.jpg"
+  },
+  {
+    "nombre": "Fernando",
+    "apellido": "Ruiz",
+    "edad": 34,
+    "grado_instruccion": "Secundaria",
+    "direccion": "Calle Los Pinos 123",
+    "genero": "M",
+    "url_foto": "assets/imagen_11.jpg"
+  },
+  {
+    "nombre": "Claudia",
+    "apellido": "Morales",
+    "edad": 26,
+    "grado_instruccion": "Universitario",
+    "direccion": "Av. Vista Alegre 789",
+    "genero": "F",
+    "url_foto": "assets/imagen_12.jpg"
+  },
+  {
+    "nombre": "Pedro",
+    "apellido": "Vega",
+    "edad": 36,
+    "grado_instruccion": "Primaria",
+    "direccion": "Calle Primavera 123",
+    "genero": "M",
+    "url_foto": "assets/imagen_13.jpg"
+  },
+  {
+    "nombre": "Isabel",
+    "apellido": "Ortiz",
+    "edad": 21,
+    "grado_instruccion": "Técnico",
+    "direccion": "Av. Central 456",
+    "genero": "F",
+    "url_foto": "assets/imagen_14.jpg"
+  },
+  {
+    "nombre": "Ricardo",
+    "apellido": "Jiménez",
+    "edad": 31,
+    "grado_instruccion": "Universitario",
+    "direccion": "Calle Los Rosales 789",
+    "genero": "M",
+    "url_foto": "assets/imagen_15.jpg"
+  },
+  {
+    "nombre": "Gabriela",
+    "apellido": "Mendoza",
+    "edad": 24,
+    "grado_instruccion": "Universitario",
+    "direccion": "Av. Los Laureles 321",
+    "genero": "F",
+    "url_foto": "assets/imagen_16.jpg"
+  },
+  {
+    "nombre": "Hugo",
+    "apellido": "Carrillo",
+    "edad": 37,
+    "grado_instruccion": "Secundaria",
+    "direccion": "Calle Horizonte 456",
+    "genero": "M",
+    "url_foto": "assets/imagen_17.jpg"
+  },
+  {
+    "nombre": "Marta",
+    "apellido": "Silva",
+    "edad": 28,
+    "grado_instruccion": "Postgrado",
+    "direccion": "Av. Los Pinos 987",
+    "genero": "F",
+    "url_foto": "assets/imagen_18.jpg"
+  },
+  {
+    "nombre": "Daniel",
+    "apellido": "Campos",
+    "edad": 33,
+    "grado_instruccion": "Universitario",
+    "direccion": "Calle Central 654",
+    "genero": "M",
+    "url_foto": "assets/imagen_19.jpg"
+  },
+  {
+    "nombre": "Elena",
+    "apellido": "Cruz",
+    "edad": 22,
+    "grado_instruccion": "Técnico",
+    "direccion": "Av. Primavera 321",
+    "genero": "F",
+    "url_foto": "assets/imagen_20.jpg"
+  }
+]
